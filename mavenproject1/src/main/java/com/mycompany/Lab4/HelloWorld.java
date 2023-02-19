@@ -16,8 +16,6 @@ public class HelloWorld {
       printMessage=(n);
   }
     public static void printMessage(int n) {
-    }
-          
-    
-    
+    }              
 }
+
