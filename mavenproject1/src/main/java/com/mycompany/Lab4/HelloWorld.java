@@ -10,15 +10,25 @@ package com.mycompany.Lab4;
  */
 public class HelloWorld {
   
+    static int count=1;
   public static void main(String[]args, int printMessage)  {
       
+     
       int n = 1;
       printMessage=(n);
    // Declaring our integer variable   
   }
-    public static void printMessage(int n) {
-    }              
-      // Calling the Method
+    public static void printMessage(int n) 
+   {   
+      count++;
+     if (count<=n)
+     {
+                     System.out.print("Hello World"+"/n");
+                     printMessage(n);
+     }
+}                 
 }
+
+
 
 
