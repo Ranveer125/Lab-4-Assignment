@@ -22,4 +22,12 @@ public class Task02 {
  }
 }
 
+/**  1() The output of this code is the GCD of our x and y value
+ * Calling x 20 and y 10 will give us an output of 10
+ * 10 is the GCD of 10 and 20
+ */
+
+/**  2() 
+ * 
+ */
 
