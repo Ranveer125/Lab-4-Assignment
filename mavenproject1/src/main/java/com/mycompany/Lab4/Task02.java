@@ -11,14 +11,15 @@ package com.mycompany.Lab4;
 public class Task02 {
    int gcd(int x, int y) {
 
-      if (x % y == 0) //base case
+      if (x == y) { //base case
 
              return y;
 
-       else
-
-             return gcd(y, x % y);
-
+      } else if (x>y) { 
+          return gcd(x-y,y);
+      } else {
+      } 
+        return gcd(x,y-x);
  }
 }
 
@@ -27,9 +28,10 @@ public class Task02 {
  * 10 is the GCD of 10 and 20
  */
 
-/**  2() 
- * 
+/**  2() Modify Code to find GCD using subtraction instead of %
+ * Output will be the exact same after modifying this code
  */
+
 
 
 
