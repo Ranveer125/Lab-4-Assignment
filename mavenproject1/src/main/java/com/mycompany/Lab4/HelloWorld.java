@@ -14,8 +14,11 @@ public class HelloWorld {
       
       int n = 1;
       printMessage=(n);
+   // Declaring our integer variable   
   }
     public static void printMessage(int n) {
     }              
+      // Calling the Method
 }
+
 
