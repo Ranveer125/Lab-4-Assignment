@@ -27,8 +27,9 @@ public class Task03 {
     }
 }
 
-/**  1()  
- * 
+/**  1() The Time Complexity of this Algorithm is O(2^n) 
+ *  T(n-1)+T(n-2)
+ * It grows rapidly with n and is recursion
  */
 
 
