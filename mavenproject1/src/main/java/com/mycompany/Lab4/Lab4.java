@@ -41,9 +41,10 @@ public class Lab4 {
  * We add an if-statement to check the current number
  */
 // 
-/** 3() O(n) is the Time Complexity. The function is called n times,
- * it is decreasing by 1 each time it's called
- * the time complexity is linear and is O(n)
+/** 3() O(n) is the Time Complexity of this Algorithm. 
+ * The function is called n times
+ * It is decreasing by -1 each time it's called
+ * The time complexity is linear and is O(n)
  */  
 
 
