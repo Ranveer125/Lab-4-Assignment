@@ -26,7 +26,8 @@ public class BinarySearch {
       
       return binarySearch(array, target, mid + 1, high);
     }
-
+// Search right half of array
     return -1;
   }
 }
+
