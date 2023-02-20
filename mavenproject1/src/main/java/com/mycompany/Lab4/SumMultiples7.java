@@ -17,10 +17,17 @@ public class SumMultiples7 {
       static int findSum(int n1, int n2){
           
           int sum = n1+n2;
-          
+          if (n1 !=0)
+              return n1 + findSum(n1 - 1);
+          else
          return 7;
           
       }
+
+    private static int findSum(int i) {
+        throw new UnsupportedOperationException();
+    }
         
 }
+
 
